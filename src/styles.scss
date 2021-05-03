@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-body {
+body{
   margin: 0;
   padding: 0px;
   width: 100vw;
@@ -7,15 +7,19 @@ body {
   background: url("https://fotos-pagina-s3.s3-us-west-2.amazonaws.com/IMG_9389.jpg") repeat-y;
   background-size: cover;
   font-family: "Monaco", monospace;
+
 }
 
 header {
   font-family: "Monaco", "Courier New", monospace;
   font-size: 2.5em;
   font-weight: bold;
+
+
 }
 
-button {
+
+button{
   border-radius: 2px;
   padding: 14px 40px;
   border: 2px solid #4CAF50;
@@ -24,18 +28,12 @@ button {
   margin-left: 0px;
   margin-right: 0px;
   font-family: "Monaco", monospace;
-}
 
+}
 li {
   border-top: 4px solid #bbb;
 }
 
-.toptitle{
-  font-family: "Monaco", "Courier New", monospace;
-  font-size: 2.5em;
-  font-weight: bold;
-  padding-top: 20px;
-  margin-left: 350px;
-  margin-right: 350px;
-}
-/*# sourceMappingURL=styles.css.map */
+
+
+
