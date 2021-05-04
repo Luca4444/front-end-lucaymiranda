@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
 
+import {Component, OnInit} from '@angular/core';
 import {ImageUploadService} from '../image-upload.service';
 
 @Component({
