@@ -12,7 +12,7 @@ export class ImageUploadService {
 
   imageUpload(imageForm: File) {
     console.log('image uploading');
-    return this.http.post('http://localhost:3000/fileupload', imageForm);
+    return this.http.post('https://lucaymirandaback.herokuapp.com/fileupload', imageForm);
   }
 
   upload(file): Observable<any> {
@@ -25,10 +25,10 @@ export class ImageUploadService {
 
     // Make http post request over api
     // with formData as req
-    return this.http.post('http://localhost:3000/fileupload', formData);
+    return this.http.post('https://lucaymirandaback.herokuapp.com/fileupload', formData);
   }
   getAllKeys(): Observable<any>{
-    return this.http.get('http://localhost:3000/fileupload/images');
+    return this.http.get('https://lucaymirandaback.herokuapp.com/fileupload/images');
   }
 }
 
