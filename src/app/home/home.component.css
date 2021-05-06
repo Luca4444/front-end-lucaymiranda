@@ -1,7 +1,10 @@
-.flight_results {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.toptitle {
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-top: 10px;
+  font-family: "Monaco", "Courier New", monospace;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .responsive {
@@ -9,6 +12,18 @@
   height: auto;
   max-width: 600px;
   min-width: 200px;
+  display: block;
+  overflow: hidden;
+  margin: 12px auto;
+  object-fit: scale-down;
+}
+
+.imgtitle {
+  font-family: "Monaco", "Courier New", monospace;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .outer_container {
