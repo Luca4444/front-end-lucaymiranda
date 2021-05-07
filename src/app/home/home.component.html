@@ -1,9 +1,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<div class="toptitle">
-  <div class="w3-card-2 w3-pale-red w3-center w3-round">
-    Fotos de Mini Puki y Luca
-  </div>
+<div class="toptitle w3-center w3-card-2 w3-pale-red  w3-round">
+  Fotos de Mini Puki y Luca
 </div>
 
 <div class="outer_container">
@@ -13,7 +11,7 @@
 
 
     <div *ngFor="let i of allImagesNames"  >
-      <div class="center w3-pale-red w3-card-4 w3-hover-shadow w3-round"style="margin-bottom: 20px; margin-right: 300px; margin-left: 300px; margin-top: 20px; min-width: 200px;">
+      <div class="w3-center w3-pale-red w3-card-4 w3-hover-shadow w3-round imgcard" >
         <div class="w3-center w3-card w3-round imgtitle" > {{i}}</div>
         <img src="https://fotos-pagina-s3.s3-us-west-2.amazonaws.com/{{i}}" class="w3-padding w3-round w3-hover-grayscale w3-center responsive" alt="enmedio">
         <div></div>
