@@ -11,6 +11,13 @@ body {
   max-width: 100%;
   height: auto;
   max-height: 100px;
+  object-fit: scale-down;
+}
+@media screen and (max-device-width: 800px) {
+  .navpic {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 header {
