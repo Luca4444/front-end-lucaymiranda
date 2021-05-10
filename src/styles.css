@@ -7,6 +7,12 @@ body {
   font-family: "Monaco", monospace;
 }
 
+.navpic {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px;
+}
+
 header {
   font-family: "Monaco", "Courier New", monospace;
   font-size: 3.5vw;
@@ -18,12 +24,6 @@ header {
 
 li {
   border-top: 4px solid #bbb;
-}
-
-.anuncio {
-  font-family: "Monaco", "Courier New", monospace;
-  font-size: 2.5em;
-  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */

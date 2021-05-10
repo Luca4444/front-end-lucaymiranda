@@ -1,12 +1,18 @@
 .toptitle {
-  display: block;
   margin-top: 10px;
   font-family: "Monaco", "Courier New", monospace;
   font-size: 2.5vw;
   font-weight: bold;
+  white-space: nowrap;
+  width: 50%;
   object-fit: scale-down;
-  margin-left: 280px;
-  margin-right: 280px;
+}
+
+.afueratoptitle {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .responsive {
