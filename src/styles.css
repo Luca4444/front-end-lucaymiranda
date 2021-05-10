@@ -1,7 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  margin: 0;
-  padding: 0px;
   width: 100vw;
   height: 100vh;
   background: url("https://fotos-pagina-s3.s3-us-west-2.amazonaws.com/IMG_9389.jpg") repeat-y;
@@ -11,12 +9,21 @@ body {
 
 header {
   font-family: "Monaco", "Courier New", monospace;
-  font-size: 2.5em;
+  font-size: 3.5vw;
   font-weight: bold;
+  max-height: 100px;
+  height: auto;
+  min-height: 40px;
 }
 
 li {
   border-top: 4px solid #bbb;
+}
+
+.anuncio {
+  font-family: "Monaco", "Courier New", monospace;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,13 +1,12 @@
 .toptitle {
   display: block;
-  padding-top: 10px;
+  margin-top: 10px;
   font-family: "Monaco", "Courier New", monospace;
-  font-size: 2em;
+  font-size: 2.5vw;
   font-weight: bold;
-  resize: vertical;
-  white-space: nowrap;
-  overflow: hidden;
   object-fit: scale-down;
+  margin-left: 280px;
+  margin-right: 280px;
 }
 
 .responsive {
@@ -23,7 +22,7 @@
 
 .imgtitle {
   font-family: "Monaco", "Courier New", monospace;
-  font-size: 1.5em;
+  font-size: 1.5vw;
   font-weight: bold;
   margin-right: 100px;
   margin-left: 100px;
