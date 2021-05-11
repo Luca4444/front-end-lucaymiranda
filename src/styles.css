@@ -20,6 +20,18 @@ body {
   }
 }
 
+.navbotones {
+  max-width: 100%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-device-width: 800px) {
+  .navbotones {
+    height: 70px;
+  }
+}
+
 header {
   font-family: "Monaco", "Courier New", monospace;
   font-size: 3.5vw;
