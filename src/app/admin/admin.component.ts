@@ -1,6 +1,7 @@
 
 import {Component, OnInit} from '@angular/core';
 import {ImageUploadService} from '../image-upload.service';
+import {$} from 'protractor';
 
 @Component({
   selector: 'app-admin',
@@ -13,6 +14,9 @@ export class AdminComponent implements OnInit {
   shortLink = '';
   loading = false; // Flag variable
   file: File = null; // Variable to store file
+  public imagePath;
+  imgURL: any;
+
   constructor(private imageUploadService: ImageUploadService) { }
 
   ngOnInit(): void {

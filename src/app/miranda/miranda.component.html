@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<div class="afueratoptitle w3-center">
+  <div class="toptitle w3-center w3-card-2 w3-pale-red  w3-round">
+    Fotos de Mini Puki y Luca
+  </div>
+</div>
+
+<div class="outer_container">
+
+  <div class="big_container">
+
+    <div *ngFor="let i of allImagesNames"  >
+      <div class="w3-center w3-pale-red w3-card-4 w3-hover-shadow w3-round imgcard" >
+        <div class="w3-center w3-card w3-round imgtitle" > {{i}}</div>
+        <img src="https://fotos-pagina-s3.s3-us-west-2.amazonaws.com/{{i}}" class="w3-padding w3-round w3-hover-grayscale w3-center responsive" alt="enmedio">
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>
